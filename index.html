@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,39 @@
         header {
             background: #003366;
             color: white;
-            padding: 35px;
+            padding: 35px 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
+            font-size: 2.4em;
+        }
+
+        header p {
+            margin: 8px 0 20px 0;
+            font-size: 1.1em;
+        }
+
+        .header-photo {
+            margin: 0 auto 20px auto;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid white;
+            display: inline-block;
+        }
+
+        .header-photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .social-links img {
+            width: 40px;
+            margin: 0 10px;
+            vertical-align: middle;
         }
 
         .container {
@@ -72,8 +99,19 @@
 <body>
 
 <header>
+    <div class="header-photo">
+        <img src="dp.png" alt="Bhakti Kshirsagar">
+    </div>
     <h1>Bhakti Mangesh Kshirsagar</h1>
     <p>Computational Materials Researcher | DFT · VASP</p>
+    <div class="social-links">
+        <a href="https://scholar.google.com/citations?user=vvyXotoAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" alt="Google Scholar">
+        </a>
+        <a href="https://www.researchgate.net/profile/Bhakti-Kshirsagar" target="_blank" title="ResearchGate">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate">
+        </a>
+    </div>
 </header>
 
 <div class="container">
@@ -84,7 +122,7 @@
         <p><strong>Email:</strong> <a href="mailto:bhaktiksh@gmail.com">bhaktiksh@gmail.com</a></p>
         <p><strong>Phone:</strong> +91-8408051235</p>
         <p><strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/bhakti-kshirsagar-34a163111" target="_blank">Profile Link</a>
+            <a href="https://www.linkedin.com/in/bhakti-kshirsagar-34a163111" target="_blank">LinkedIn Profile</a>
         </p>
         <p><strong>Nationality:</strong> Indian</p>
         <p><strong>Download CV:</strong> 
@@ -96,9 +134,7 @@
     <div class="section">
         <h2>Professional Summary</h2>
         <p>
-            I am a final-stage PhD candidate in Computational Materials Science. I specialize in calculations of structural, electronic, optical, mechanical, and thermodynamic properties using Density Functional Theory.
-            Skilled in analysis of band structure, Density of States, Born effective charges, polarization, and elastic constants.   
-            Experienced in Fortran, Python (basics), Bash (for scripting), HPC environments, and scientific communication.
+            I am a final-stage PhD candidate in Computational Materials Science. I specialize in calculations of structural, electronic, optical, mechanical, and thermodynamic properties using Density Functional Theory. Skilled in analysis of band structure, density of states, Born effective charges, polarization, and elastic constants. Experienced in Fortran, Python (basics), Bash scripting, HPC environments, and scientific communication.
         </p>
     </div>
 
@@ -106,7 +142,7 @@
     <div class="section">
         <h2>Relevant Skills</h2>
         <ul>
-            <li><strong>Computational Methods:</strong> DFT</li>
+            <li><strong>Computational Methods:</strong> DFT, DFPT, phonons</li>
             <li><strong>Materials Properties:</strong> Structural optimization, Born charges, polarization,
                 optical properties, thermodynamics, mechanical properties</li>
             <li><strong>Programming:</strong> Fortran (basic), Python (basic), Bash scripting</li>
@@ -120,7 +156,7 @@
         <h2>Education</h2>
         <ul>
             <li><strong>Ph.D. (Physics)</strong> – Savitribai Phule Pune University  
-            Thesis: *Ab-initio DFT-based Investigations on Some Perovskites*</li>
+            Thesis: <em>Ab-initio DFT-based Investigations on Some Perovskites</em></li>
 
             <li><strong>M.Phil. (Physics), 2017</strong> – A Grade, SPPU</li>
 
@@ -138,7 +174,7 @@
         <ul>
             <li>DFT-based investigations on perovskites for optoelectronics, piezoelectrics, spintronics, photocatalysis, and fuel cells</li>
             <li>Computed optical constants and dielectric properties using DFPT</li>
-            <li>Calculated Born charges and polarization</li>
+            <li>Calculated Born effective charges and polarization</li>
             <li>Performed mechanical and thermodynamic analysis</li>
         </ul>
 
@@ -179,7 +215,7 @@
         </ul>
     </div>
 
-    <!-- Certification -->
+    <!-- Certifications & Workshops -->
     <div class="section">
         <h2>Certifications & Workshops</h2>
         <ul>
@@ -198,4 +234,3 @@
 
 </body>
 </html>
-
